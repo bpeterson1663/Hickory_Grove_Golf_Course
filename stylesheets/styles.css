@@ -65,7 +65,13 @@ h4 { font-size:20px; }
 h5 { font-size:18px;  }
 h6 { font-size:14px; font-weight:700; letter-spacing:1px;}
 
-
+html{
+  background-image: url('../images/home.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
 .nav{
   margin: 0 auto;
   text-align: center;
@@ -84,16 +90,54 @@ h6 { font-size:14px; font-weight:700; letter-spacing:1px;}
 .logo{
   display: inline;
 }
-html{
-  background-image: url('../images/home.JPG');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-}
 
 .container-home h1,h3{
   color:#fff;
   text-align: center;
   margin-top: 50px;
+}
+.button-container{
+  margin: 60px auto;
+  position: relative;
+  width: 300px;
+  height: 100px;
+}
+.square-button{
+  width: 100px;
+  padding: 12px;
+  background-color: transparent;
+  border: 2px #fff solid;
+  margin: 10px;
+  display: inline;
+  position: relative;
+  text-align: center;
+}
+.square-button a{
+  color: #fff;
+  text-align: center;
+}
+
+.cta-header{
+  height: 60px;
+  background-color: black;
+  min-width: 100%;
+  padding-top: 20px;
+}
+.cta-header p{
+  display: inline;
+  color: #fff;
+  margin: 20px;
+  font-size: 1.6em;
+}
+.cta-header .square-button{
+  right: 50px;
+  margin-top: -10px;
+}
+
+/*
+SINGLE USE CLASSES
+*/
+
+.align-right{
+  float: right;
 }
