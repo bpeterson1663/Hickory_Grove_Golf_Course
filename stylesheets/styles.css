@@ -16,4 +16,5 @@ table{
 .masthead{
     z-index: 2;
     margin: 0 auto;
+    background-color: rgba(0,0,0, .3);
 }
