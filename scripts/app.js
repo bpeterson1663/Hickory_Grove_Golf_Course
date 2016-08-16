@@ -1,1 +1,3 @@
-console.log("loaded");
+$(document).ready(function(){
+    $(".cover").fadeIn("slow");
+});
