@@ -1,3 +1,38 @@
+<?php
+
+				if ($_POST["submit"]) {
+					$result='<div class="alert alert-success"> Form Submitted</div>';
+
+				if (!$_POST['name']) {
+					$error="<br/>Please enter your name";
+				}
+
+				if (!$_POST['email']) {
+					$error.="<br/>Please enter your email";
+				}
+
+				if (!$_POST['comment']) {
+					$error.="<br/> Please enter your comments";
+				}
+
+				if ($_POST['email']!="" AND (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))) {
+					$error.="<br />Please enter a valid email address";
+				}
+				if ($error) {
+					$result='<div class="alert alert-danger center"><strong> There were error(s) in your form:</strong>'.$error.'</div>';
+				} else {
+
+					if (mail("bpeterson1663@gmail.com", "Comment From Website!", "Name: ".$_POST['name']."
+					Email: ".$_POST['email']."
+					Comment: ".$_POST['comment'])) {
+						$result='<div class="alert alert-success center"><strong>Thank You!</strong> We\'ll be in touch with you shortly.</div>';
+					} else {
+						$result='<div class="alert alert-danger"><strong>Sorry there was an error.</strong>Please Try Again!</div>';
+					}
+				}
+			}
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -54,13 +89,42 @@
                           <li><a href="../views/course.html">The Course</a></li>
                           <li><a href="../views/events.html">Events</a></li>
                           <li><a href="../views/foodandbev.html">Food And Beverage</a></li>
-                          <li><a href="../views/contact.html">Contact Us</a></li>
+                          <li><a href="../views/contact.php">Contact Us</a></li>
                       </ul>
                     </div>  
                </div>
               </nav>
             </div>
-          </div>
+            </div>
+            <div class="row">
+              <h1 class="center title">Let's Talk</h1>
+              <?php echo $result; ?>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 centerContent">
+                <form method="post">
+                <div class="form-group">
+                  <label form="name">Your Name:</label>
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" value="<?php echo $_POST['name'];?>"/>
+                </div>
+                <div class="form-group">
+                  <label form="name">Email:</label>
+                  <input type="email" name="email" class="form-control" placeholder="Your Email" value="<?php echo $_POST['email'];?>" />
+                </div>
+                <div class="form-group">
+                  <label form="comment">Your Comment:</label>
+                  <textarea name="comment" class="form-control" placeholder="Enter Your Comments" value="<?php echo $_POST['comment'];?>"> </textarea>
+                </div>
+                <input type="submit" class="btn btn-success btn-lg center-block" value="Submit" name="submit" onclick="window.location.href='#letsTalk'"/>
+              </form>
+                <div class="center contactInfo">
+                  <h4><a href="tel:+19522501663">Cell Phone: (952) 250-1663</a></h4>
+                      <h4><a href="mailto:bpeterson1663@gmail.com">Email: bpeterson1663@gmail.com</a></h4>
+                    </div>
+              <br/>
+                  </div>
+   		      </div>
+          
 
   
 
