@@ -97,40 +97,44 @@
             </div>
             </div>
             <div class="row">
-              <h1 class="center title">Let's Talk</h1>
+              <h1 class="center title">Contact Us</h1>
               <?php echo $result; ?>
             </div>
             <div class="row">
               <div class="col-md-6 col-md-offset-3 centerContent">
                 <form method="post">
-                <div class="form-group">
-                  <label form="name">Your Name:</label>
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" value="<?php echo $_POST['name'];?>"/>
-                </div>
-                <div class="form-group">
-                  <label form="name">Email:</label>
-                  <input type="email" name="email" class="form-control" placeholder="Your Email" value="<?php echo $_POST['email'];?>" />
-                </div>
-                <div class="form-group">
-                  <label form="comment">Your Comment:</label>
-                  <textarea name="comment" class="form-control" placeholder="Enter Your Comments" value="<?php echo $_POST['comment'];?>"> </textarea>
-                </div>
-                <input type="submit" class="btn btn-success btn-lg center-block" value="Submit" name="submit" onclick="window.location.href='#letsTalk'"/>
-              </form>
-                <div class="center contactInfo">
-                  <h4><a href="tel:+19522501663">Cell Phone: (952) 250-1663</a></h4>
-                      <h4><a href="mailto:bpeterson1663@gmail.com">Email: bpeterson1663@gmail.com</a></h4>
+                    <div class="form-group">
+                      <label form="name">Your Name:</label>
+                      <input type="text" name="name" class="form-control" placeholder="Your Name" value="<?php echo $_POST['name'];?>"/>
                     </div>
+                    <div class="form-group">
+                      <label form="name">Email:</label>
+                      <input type="email" name="email" class="form-control" placeholder="Your Email" value="<?php echo $_POST['email'];?>" />
+                    </div>
+                    <div class="form-group">
+                      <label form="comment">Your Comment:</label>
+                      <textarea name="comment" class="form-control" placeholder="Enter Your Comments" value="<?php echo $_POST['comment'];?>"> </textarea>
+                    </div>
+                    <input type="submit" class="btn btn-success btn-lg center-block" value="Submit" name="submit" onclick="window.location.href='#letsTalk'"/>
+                </form>
+                <div class="center contactInfo">
+                  <h4><a href="tel:+16088223955">Phone: (608) 822-3955</a></h4>
+                  <h4><a href="tel:+16088223289">Fax: (608) 822-3289</a></h4>
+                  <div class="row center">
+                    <div class="col-md-12">
+                      <h4><a href="scott@hickorygrovegolfcourse.com">Scott Peterson - General Manager scott@hickorygrovegolfcourse.com</a></h4>
+                      <h4><a href="mailto:jake@hickorygrovegolfcourse.com">Jake Oomens - Course Superintendent: jake@hickorygrovegolfcourse.com</a></h4>
+                    </div>
+                  </div> 
+                </div>
               <br/>
-                  </div>
+              </div>
    		      </div>
-          
-
-  
 
           <div class="mastfoot">
             <div class="inner">
                <p>&copy; Hickory Grove Golf Course 2016</p>
+               <p><a target="_blank" href="https://www.google.com/maps/place/Hickory+Grove+Golf+Course/@43.0342019,-90.663156,17z/data=!3m1!4b1!4m5!3m4!1s0x87fce3a3ae44e39d:0x662140f43d2f7736!8m2!3d43.034198!4d-90.660962">14562 US HWY 61 </br> Fennimore, WI 53809</a></p>
             </div>
           </div>
         </div>
