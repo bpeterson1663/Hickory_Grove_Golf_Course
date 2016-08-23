@@ -31,15 +31,19 @@ table{
     margin: 0 auto;
     background-color: rgba(0,0,0, .3);
     height: 75px;
+    min-width: 100%;
+    left:0;
 }
 .mastfoot{
     background-color: rgba(0,0,0, .5);
     position: fixed;
     margin-bottom: 0;
+    width: 100%;
 }
 @media screen and (max-width: 770px) {
-    .site-wrapper{
-        min-height:100%;
+    .cover{
+        width: 100%;
+        min-height: 100%;
     }
     .masthead-nav {
         margin-top: 0;
@@ -49,17 +53,32 @@ table{
         margin-top: 75px;
     }
     .mastfoot{
-        margin-bottom: 0;
-        position:fixed;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+    .main-logo{
+        display: none;
     }
 }
-
 .inner a{
+    color: #fff;
+}
+.mastfoot a{
     color: #999;
 }
+
 .text-center{
     text-align: center;
 }
 .row h1{
     margin-top: 75px;
+}
+
+.btn-success{
+    color: #fff;
+}
+
+.main-logo{
+    width: 220px;
 }
