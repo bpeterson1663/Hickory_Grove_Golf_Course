@@ -82,3 +82,7 @@ table{
 .main-logo{
     width: 220px;
 }
+.space-below-content{
+    height: 100px;
+    width:100%;
+}
