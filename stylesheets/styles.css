@@ -53,8 +53,8 @@ table{
         margin-top: 75px;
     }
     .mastfoot{
-        bottom: 0;
-        position: absolute;
+        margin-bottom: 0;
+        position: relative;
         width: 100%;
     }
     .main-logo{
