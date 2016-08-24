@@ -89,6 +89,12 @@ table{
 #theCourse{
     background-image: url('../images/the-course.JPG');
 }
+#events{
+    background-image: url('../images/events.jpg');
+}
+#foodAndBev{
+    background-image: url('../images/food-and-bev.jpg');
+}
 #homeFoot{
     position: fixed;
 }
