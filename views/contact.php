@@ -115,13 +115,13 @@
                       <label form="comment">Your Comment:</label>
                       <textarea name="comment" class="form-control" placeholder="Enter Your Comments" value="<?php echo $_POST['comment'];?>"> </textarea>
                     </div>
-                    <input type="submit" class="btn btn-success btn-lg center-block" value="Submit" name="submit" onclick="window.location.href='#letsTalk'"/>
+                    <input type="submit" class="btn btn-success btn-lg center-block" value="Submit" name="submit"/>
                 </form>
                 <div class="center contactInfo">
                   <h4><a href="tel:+16088223955">Phone: (608) 822-3955</a></h4>
                   <h4><a href="tel:+16088223289">Fax: (608) 822-3289</a></h4>
                   <div class="row center">
-                    <div class="col-md-12">
+                    <div class="col-md-12 contact-info">
                       <h4><a href="scott@hickorygrovegolfcourse.com">Scott Peterson - General Manager scott@hickorygrovegolfcourse.com</a></h4>
                       <h4><a href="mailto:jake@hickorygrovegolfcourse.com">Jake Oomens - Course Superintendent: jake@hickorygrovegolfcourse.com</a></h4>
                     </div>
