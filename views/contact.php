@@ -117,13 +117,13 @@
                     </div>
                     <input type="submit" class="btn btn-success btn-lg center-block" value="Submit" name="submit"/>
                 </form>
-                <div class="center contactInfo">
-                  <h4><a href="tel:+16088223955">Phone: (608) 822-3955</a></h4>
-                  <h4><a href="tel:+16088223289">Fax: (608) 822-3289</a></h4>
+                <div class="center contact-info">
+                  <h4>Phone: <a href="tel:+16088223955">(608) 822-3955</a></h4>
+                  <h4>Fax: <a href="tel:+16088223289">(608) 822-3289</a></h4>
                   <div class="row center">
                     <div class="col-md-12 contact-info">
-                      <h4><a href="scott@hickorygrovegolfcourse.com">Scott Peterson - General Manager scott@hickorygrovegolfcourse.com</a></h4>
-                      <h4><a href="mailto:jake@hickorygrovegolfcourse.com">Jake Oomens - Course Superintendent: jake@hickorygrovegolfcourse.com</a></h4>
+                      <h4>Scott Peterson - General Manager: <a href="scott@hickorygrovegolfcourse.com">scott@hickorygrovegolfcourse.com</a></h4>
+                      <h4>Jake Oomens - Course Superintendent: <a href="mailto:jake@hickorygrovegolfcourse.com">jake@hickorygrovegolfcourse.com</a></h4>
                     </div>
                   </div> 
                 </div>
