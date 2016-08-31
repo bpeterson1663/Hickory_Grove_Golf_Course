@@ -115,4 +115,22 @@ table{
     .space-below-content{
         height:10px;
     }
+    #homeFoot{
+        display: inline;
+        height: auto;
+        margin-top: -115px;
+        position: fixed;
+        width: 100%;
+        left: 0;
+    }
+}
+
+.align-left{
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.fb-like{
+    margin-bottom: 5px;
 }

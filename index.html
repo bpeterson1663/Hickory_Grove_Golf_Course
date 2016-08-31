@@ -35,12 +35,23 @@
   </head>
 
   <body>
+    <!--Facebook Code-->
+    <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+    <!--End of Facebook Code-->
+
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
           <div class="masthead clearfix">
             <div class="inner">
-              <img src="images/HG-Logo-Small.png" alt="Hickory Grove Logo" class="logo masthead-brand" />
+              <img src="images/HG-Logo-Small.png" alt="Hickory Grove Logo" class="masthead-brand" />
               <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
                   <div class="navbar-header">
@@ -79,8 +90,9 @@
     </div>
     <div id="homeFoot" class="mastfoot">
       <div class="inner">
-          <p>&copy; Hickory Grove Golf Course 2016</p>
-          <p><a target="_blank" href="https://www.google.com/maps/place/Hickory+Grove+Golf+Course/@43.0342019,-90.663156,17z/data=!3m1!4b1!4m5!3m4!1s0x87fce3a3ae44e39d:0x662140f43d2f7736!8m2!3d43.034198!4d-90.660962">14562 US HWY 61 </br> Fennimore, WI 53809</a></p>
+          <a href="https://www.facebook.com/HickoryGroveGC/"><img class="fb-like" alt="Facebook Like" src="images/fbLike.png"/></a>
+          <p><a target="_blank" href="https://www.google.com/maps/place/Hickory+Grove+Golf+Course/@43.0342019,-90.663156,17z/data=!3m1!4b1!4m5!3m4!1s0x87fce3a3ae44e39d:0x662140f43d2f7736!8m2!3d43.034198!4d-90.660962">14562 US HWY 61 </br> Fennimore, WI 53809</a> </br>&copy; Hickory Grove Golf Course 2016</p>
+
       </div>
     </div>
     <!-- Bootstrap core JavaScript
