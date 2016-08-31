@@ -135,8 +135,8 @@
     </div>
     <div class="mastfoot">
       <div class="inner">
-          <p>&copy; Hickory Grove Golf Course 2016</p>
-          <p><a target="_blank" href="https://www.google.com/maps/place/Hickory+Grove+Golf+Course/@43.0342019,-90.663156,17z/data=!3m1!4b1!4m5!3m4!1s0x87fce3a3ae44e39d:0x662140f43d2f7736!8m2!3d43.034198!4d-90.660962">14562 US HWY 61 </br> Fennimore, WI 53809</a></p>
+          <a href="https://www.facebook.com/HickoryGroveGC/"><img class="fb-like" alt="Facebook Like" src="images/fbLike.png"/></a>
+          <p><a target="_blank" href="https://www.google.com/maps/place/Hickory+Grove+Golf+Course/@43.0342019,-90.663156,17z/data=!3m1!4b1!4m5!3m4!1s0x87fce3a3ae44e39d:0x662140f43d2f7736!8m2!3d43.034198!4d-90.660962">14562 US HWY 61 </br> Fennimore, WI 53809</a> </br>&copy; Hickory Grove Golf Course 2016</p>
       </div>
     </div>
     <!-- Bootstrap core JavaScript
