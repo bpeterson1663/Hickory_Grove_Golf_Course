@@ -27,7 +27,7 @@
 					Comment: ".$_POST['comment'])) {
 						$result='<div class="alert alert-success center"><strong>Thank You!</strong> We\'ll be in touch with you shortly.</div>';
 					} else {
-						$result='<div class="alert alert-danger"><strong>Sorry there was an error.</strong>Please Try Again!</div>';
+						$result='<div class="alert alert-danger"><strong>Sorry there was an error.</strong> Please Try Again!</div>';
 					}
 				}
 			}
@@ -118,7 +118,7 @@
                     <input type="submit" class="btn btn-success btn-lg center-block" value="Submit" name="submit"/>
                 </form>
                 <div class="center contact-info">
-                  <h4>Phone: <a href="tel:+16088223955">(608) 822-3955</a></h4>
+                  <h4>Phone: <a href="tel:+16088223955">(608) 822-3314</a></h4>
                   <h4>Fax: <a href="tel:+16088223289">(608) 822-3289</a></h4>
                   <div class="row center">
                     <div class="col-md-12 contact-info">
