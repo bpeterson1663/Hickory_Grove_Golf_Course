@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <meta name="Description" content="Hickory Grove Golf Course is a beautiful nine-hole golf course located in the heart of Southwest Wisconsin. Located just a few miles west of Fennimore, WI Hickory Grove Golf Course offers great service at great prices.">
     <meta name="Author" content="Brady Peterson">
     <meta name="Keywords" content="golf, golf course, wisconsin, afordable golf, driving range, practice range">
@@ -22,18 +22,10 @@
     <link href="stylesheets/cover.css" rel="stylesheet" />
     <link href="stylesheets/styles.css" rel="stylesheet" />
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="stylesheets/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="scripts/ie-emulation-modes-warning.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body>
@@ -75,7 +67,6 @@
             </p>
           </div>
 
-          
         </div>
       </div>
     </div>
@@ -85,10 +76,7 @@
           <p><a target="_blank" href="https://www.google.com/maps/place/Hickory+Grove+Golf+Course/@43.0342019,-90.663156,17z/data=!3m1!4b1!4m5!3m4!1s0x87fce3a3ae44e39d:0x662140f43d2f7736!8m2!3d43.034198!4d-90.660962">14562 US HWY 61 </br> Fennimore, WI 53809</a> </br>&copy; Hickory Grove Golf Course 2016</p>
       </div>
     </div>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
     <script src="scripts/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
