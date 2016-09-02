@@ -57,7 +57,7 @@
               </nav>
             </div>
           </div>
-         
+         <!--Drop Down Menu--> 
           <div class="inner cover">
             <img src="images/HG-Logo.png" alt="Hickory Grove Logo" class="main-logo"/>  
             <h1 class="cover-heading">Welcome To Hickory Grove Golf Course</h1>
