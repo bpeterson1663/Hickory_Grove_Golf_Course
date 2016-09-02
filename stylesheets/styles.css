@@ -54,7 +54,11 @@ table{
 .row h1{
     margin-top: 75px;
 }
-
+.center-block{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 .btn-success{
     color: #fff;
     margin: 3px;

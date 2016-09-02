@@ -22,7 +22,7 @@
 					$result='<div class="alert alert-danger center"><strong> There were error(s) in your form:</strong>'.$error.'</div>';
 				} else {
 
-					if (mail("bpeterson1663@gmail.com", "Comment From Website!", "Name: ".$_POST['name']."
+					if (mail("scott@hickorygrovegolfcourse.com", "Comment From Website!", "Name: ".$_POST['name']."
 					Email: ".$_POST['email']."
 					Comment: ".$_POST['comment'])) {
 						$result='<div class="alert alert-success center"><strong>Thank You!</strong> We\'ll be in touch with you shortly.</div>';
