@@ -17,10 +17,12 @@
     <title>Hickory Grove Golf Course</title>
 
     <script src="vendors/jquery/dist/jquery.min.js" type="text/javascript"></script>
-    <script src="vendors/bootstrap/dist/js/bootstrap.min.js" type='text/javascript'></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="scripts/bootstrap-dropdownhover.min.js" type="text/javascript"></script>
     <script src="scripts/app.js" type="text/javascript" ></script>
 
     <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="stylesheets/animate.min.css" rel="stylesheet"/>
     <link href="stylesheets/cover.css" rel="stylesheet" />
     <link href="stylesheets/styles.css" rel="stylesheet" />
 
@@ -48,7 +50,7 @@
                   </div>
                    <div class="collapse navbar-collapse" id="myNavbar">
                       <ul class="nav navbar-nav masthead-nav">
-                          <li><a href="index.html">Home</a></li>
+                          <li class="dropdown-toggle"  data-toggle="dropdown" data-hover="dropdown"><a href="index.html">Home</a></li>
                           <li><a href="views/course.html">The Course</a></li>
                           <li><a href="views/events.html">Events</a></li>
                           <li><a href="views/foodandbev.html">Food And Beverage</a></li>
@@ -63,32 +65,15 @@
 
       <!--The Golf Course, Rates, Practice Facilities, Lessons-->
       <!--NEED TO INCLUDE JAVASCRIPT AND CSS-->
-      <!--<div class="dropdown">
-          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
-          Dropdown <span class="caret"></span>
-          </button>
+      <div class="dropdown">
           <ul class="dropdown-menu">
-            <li><a href="#">The Course</a></li>
-            <li><a href="#">Events</a></li>
-            <li class="dropdown">
-              <a href="#">One more dropdown</a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li class="dropdown">
-                  <a href="#">One more dropdown</a>
-                  <ul class="dropdown-menu">
-                  ...
-                  </ul>
-                </li>
-                <li><a href="#">Something else here</a></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
+            <li><a href="#">The Golf Course</a></li>
+            <li><a href="#">Rates</a></li>
+            <li><a href="#">Practice Facilities</a>
             <li><a href="#">Something else here</a></li>
             <li><a href="#">Separated link</a></li>
           </ul>
-        </div>-->
+        </div>
 
 
           <div class="inner cover">
