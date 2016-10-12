@@ -40,7 +40,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="Description" content="Hickory Grove Golf Course is a beautiful nine-hole golf course located in the heart of Southwest Wisconsin. Located just a few miles west of Fennimore, WI Hickory Grove Golf Course offers great service at great prices.">
+    <meta name="Description" content="Hickory Grove Golf Course is a beautiful nine-hole golf course located in the heart of Southwest Wisconsin. Located just a few miles north of Fennimore, WI Hickory Grove Golf Course offers great service at great prices.">
     <meta name="Author" content="Brady Peterson">
     <meta name="Keywords" content="golf, golf course, wisconsin, afordable golf, driving range, practice range">
     <meta name="Robots" content="all">

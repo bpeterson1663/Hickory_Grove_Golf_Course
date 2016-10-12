@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="Description" content="Hickory Grove Golf Course is a beautiful nine-hole golf course located in the heart of Southwest Wisconsin. Located just a few miles west of Fennimore, WI Hickory Grove Golf Course offers great service at great prices.">
+    <meta name="Description" content="Hickory Grove Golf Course is a beautiful nine-hole golf course located in the heart of Southwest Wisconsin. Located just a few miles north of Fennimore, WI Hickory Grove Golf Course offers great service at great prices.">
     <meta name="Author" content="Brady Peterson">
     <meta name="Keywords" content="golf, golf course, wisconsin, afordable golf, driving range, practice range">
     <meta name="Robots" content="all">
@@ -50,8 +50,7 @@
                   </div>
                    <div class="collapse navbars-collapse" id="myNavbar">
                       <ul class="nav navbar-nav masthead-nav">
-
-                          <!--<li><a href="index.html">Home</a></li>-->
+                          <li><a href="index.html">Home</a></li>
                           <li><a href="views/course.html">The Course</a></li>
                           <li><a href="views/events.html">Events</a></li>
                           <li><a href="views/foodandbev.html">Food And Beverage</a></li>
